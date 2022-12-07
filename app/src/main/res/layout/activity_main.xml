@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="233dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="104dp"
+        android:gravity="center"
+        android:text="Welcome to Disciplinary Management"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="16dp" />
+
+
+    <ImageView
+        android:id="@+id/imageHOME"
+        android:layout_width="319dp"
+        android:layout_height="280dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginEnd="46dp"
+        app:srcCompat="@drawable/image" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="365dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/imageHOME"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="23dp"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:text="Start monitor your violations and explore \n the university's rules and policy."
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="240dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginEnd="67dp"
+        android:background="@drawable/roundedbutton"
+        android:color="#C1BEC5"
+        android:text="Get Started"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>
